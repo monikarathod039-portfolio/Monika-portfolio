@@ -28,84 +28,30 @@ export default function MonikaRathodPortfolio() {
       </section>
 
       <section>
-        <h2 className="text-2xl font-semibold mb-4">Experience</h2>
-        <ul className="space-y-6">
-          <li>
-            <Card>
-              <CardContent className="p-4">
-                <h3 className="text-xl font-bold">Fidelity Investments</h3>
-                <p className="text-sm text-gray-500">Shareholder Reporting Analyst | Sep 2023 - Present</p>
-                <ul className="list-disc pl-5 mt-2 space-y-1">
-                  <li>Reduced analysis time by 25% by developing interactive Tableau dashboards.</li>
-                  <li>Automated Excel-based reports for audit & compliance reviews.</li>
-                  <li>Improved compliance readiness by 30% with JIRA documentation workflows.</li>
-                </ul>
-              </CardContent>
-            </Card>
-          </li>
-
-          <li>
-            <Card>
-              <CardContent className="p-4">
-                <h3 className="text-xl font-bold">USM Business Systems</h3>
-                <p className="text-sm text-gray-500">FP&A Analyst | Oct 2022 - Sep 2023</p>
-                <ul className="list-disc pl-5 mt-2 space-y-1">
-                  <li>Achieved $1.2M annual cost savings through modeling and analysis.</li>
-                  <li>Built IRR & NPV models for 12+ products, reallocating $15M.</li>
-                  <li>Designed $20M credit exposure forecasting scenarios.</li>
-                </ul>
-              </CardContent>
-            </Card>
-          </li>
-
-          <li>
-            <Card>
-              <CardContent className="p-4">
-                <h3 className="text-xl font-bold">Fidelity Charitable</h3>
-                <p className="text-sm text-gray-500">Operations Specialist | Jan 2021 - Sep 2022</p>
-                <ul className="list-disc pl-5 mt-2 space-y-1">
-                  <li>Boosted KPI by 58% and streamlined reports using Tableau & Oracle BI.</li>
-                  <li>Oversaw 200+ JIRA support tickets with customized dashboards.</li>
-                </ul>
-              </CardContent>
-            </Card>
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2 className="text-2xl font-semibold mb-4">Projects</h2>
+        <h2 className="text-2xl font-semibold mb-4">Visual Dashboards</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Card>
-            <CardContent className="p-4">
-              <h4 className="text-lg font-bold">Real-time Stock Scraper</h4>
-              <p className="text-sm mt-2">
-                Built a stock data scraper using Python and automated validation checks across five systems to ensure 100% regulatory compliance. Strengthened data integrity and minimized financial risk.
-              </p>
+            <CardContent>
+              <h4 className="font-bold text-lg">Cost Savings Over Time</h4>
+              <img src="/cost_savings_chart.png" alt="Cost Savings Chart" className="my-2 rounded" />
+              <p>Achieved up to $700K in savings by implementing data-driven budget optimizations and scenario planning.</p>
             </CardContent>
           </Card>
-
           <Card>
-            <CardContent className="p-4">
-              <h4 className="text-lg font-bold">Risk Analysis for Global Banks</h4>
-              <p className="text-sm mt-2">
-                Analyzed risk factors from annual 10-K reports of Wells Fargo, Goldman Sachs, and UBS. Compared liquidity, market, and credit risk using Tableau dashboards and Excel-based models.
-              </p>
+            <CardContent>
+              <h4 className="font-bold text-lg">Risk Assessment Breakdown</h4>
+              <img src="/risk_breakdown_chart.png" alt="Risk Breakdown Chart" className="my-2 rounded" />
+              <p>Performed comprehensive risk analysis to balance exposures across credit, market, and liquidity risk.</p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent>
+              <h4 className="font-bold text-lg">Automation Time Saved</h4>
+              <img src="/automation_time_saved.png" alt="Automation Time Chart" className="my-2 rounded" />
+              <p>Saved over 150 hours monthly by streamlining manual processes across reporting and audit tasks.</p>
             </CardContent>
           </Card>
         </div>
-      </section>
-
-      <section>
-        <h2 className="text-2xl font-semibold mb-4">Skills Snapshot</h2>
-        <ul className="grid grid-cols-2 md:grid-cols-3 gap-2 list-disc pl-5">
-          <li>Financial Modeling & Forecasting</li>
-          <li>Tableau & Power BI</li>
-          <li>SQL & Excel Automation</li>
-          <li>Risk & Credit Analysis</li>
-          <li>JIRA & Agile Workflows</li>
-          <li>Regulatory & SOX Compliance</li>
-        </ul>
       </section>
 
       <footer className="text-center text-sm text-gray-500 pt-10">
