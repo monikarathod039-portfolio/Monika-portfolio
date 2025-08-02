@@ -1,2 +1,2 @@
-# Monika Rathod Portfolio Site
-Deployed with Vite + React + TypeScript
+# Monika Rathod Portfolio Website
+Vite + React + TypeScript.
