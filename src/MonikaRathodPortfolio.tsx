@@ -1,7 +1,6 @@
 
 import { Card, CardContent } from "./card";
 import { Button } from "./button";
-import { Linkedin, Mail } from "lucide-react";
 
 export default function MonikaRathodPortfolio() {
   return (
@@ -13,10 +12,10 @@ export default function MonikaRathodPortfolio() {
         </p>
         <div className="flex justify-center gap-4">
           <a href="mailto:monikarathod039@gmail.com">
-            <Button variant="outline"><Mail className="mr-2 h-4 w-4" />Email</Button>
+            <Button variant="outline">Email</Button>
           </a>
           <a href="https://www.linkedin.com/in/rathod-monika/" target="_blank">
-            <Button variant="outline"><Linkedin className="mr-2 h-4 w-4" />LinkedIn</Button>
+            <Button variant="outline">LinkedIn</Button>
           </a>
         </div>
       </section>
